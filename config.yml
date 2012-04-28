@@ -3,10 +3,12 @@ limitNatural: false
 # if enabled the 8 surrounding chunks will also be checked
 countSurrounding: true
 # time in milliseconds for the mob count cache to live for a chunk
+# set to 0 to never cache counts
 countCacheTime: 1000
 # time in milliseconds to keep a cache entry for before its removed due to non-use
 cacheMaxLife: 5000
 # interval time in server ticks ( dont know how to make this millseconds... ) to check for old cache entries 
+# set to 0 to never clear the cache 
 cacheMaxLifeCheckInterval: 2000
 # maximum monster count for a chunk ( or 9 chunks if countSurrounding is enabled )
 mobCap: 20
